@@ -42,7 +42,6 @@ if __name__ == "__main__":
     theta1 = np.array([[2], [0.7]])
     print(gradient(x, y, theta1))
     # Output: array([[-19.0342574],[-586.66875564]])
-    [[-19.0342574], [-586.66875564]]
 
     theta2 = np.array([[1], [-0.4]])
     print(gradient(x, y, theta2))
