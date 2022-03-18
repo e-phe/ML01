@@ -52,7 +52,7 @@ if __name__ == "__main__":
 
     theta1 = fit_(x, y, theta, alpha=5e-6, max_iter=15000)
     print(theta1)
-    # Output: array([[1.40709365],[1.1150909 ]])
+    # Output: array([[1.40709365], [1.1150909]])
 
     print(predict_(x, theta1))
     # Output: array([[15.3408728], [25.38243697], [36.59126492], [55.95130097], [65.53471499]])
